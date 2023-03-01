@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-self:space-between;
+    justify-content: space-between ;
     align-items: center;
     padding: 1rem;
 }
@@ -18,3 +18,25 @@ padding: 0 1rem;
     font-weight: 600;
 }
 
+@media screen and (max-width: 1040px){
+    .nav-manu{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -3;
+    }
+    .nav-manu li{
+        padding: 1rem 0;
+    }
+
+    .nav-manu li a{
+        font-size: 2rem;
+    }
+}
+    

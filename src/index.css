@@ -4,20 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'outfit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
   background-color: #000;
 }
 
-h1, h2, p, a{
+h1, h4, p, a{
   color: #fff;
   text-decoration: none;
 }
 
 ul{
-  list-style: none;
+  list-style-type: none;
 }
 
 .btn{
