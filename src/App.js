@@ -7,9 +7,14 @@ import Project from './components/Project';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Project />} />
+      </Routes>
+    </>
   );
 }
 
