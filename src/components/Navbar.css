@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-self:space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-manu{
+    display: flex;
+}
+
+.nav-manu li{
+padding: 0 1rem;
+}
+
+.nav-manu li a{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
