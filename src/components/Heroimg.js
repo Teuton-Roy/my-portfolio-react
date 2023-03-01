@@ -1,0 +1,1 @@
+import './Heroimg.css';
