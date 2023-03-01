@@ -5,21 +5,21 @@
     padding: 1rem;
 }
 
-.nav-manu{
+.nav-menu{
     display: flex;
 }
 
-.nav-manu li{
+.nav-menu li{
 padding: 0 1rem;
 }
 
-.nav-manu li a{
+.nav-menu li a{
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 @media screen and (max-width: 1040px){
-    .nav-manu{
+    .nav-menu{
         flex-direction: column;
         width: 100%;
         height: 100vh;
@@ -28,19 +28,24 @@ padding: 0 1rem;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
     }
-    .nav-manu li{
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .nav-menu li{
         padding: 1rem 0;
     }
 
-    .nav-manu li a{
+    .nav-menu li a{
         font-size: 2rem;
     }
 }
     
 .hamburger{
     display: initial;
-    
+
 }
