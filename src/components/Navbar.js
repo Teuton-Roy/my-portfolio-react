@@ -8,7 +8,7 @@ const NavBar = () => {
       <Link to="/">
         <h1>Folio<span>.</span></h1>
       </Link>
-      <ul>
+      <ul className="nav-manu">
         <li>
             <Link to='/'>Home</Link>
         </li>
