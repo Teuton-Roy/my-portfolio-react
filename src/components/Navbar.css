@@ -10,7 +10,7 @@
 }
 
 .nav-menu li{
-padding: 0 1rem;
+    padding: 0 1rem;
 }
 
 .nav-menu li a{
@@ -47,6 +47,11 @@ padding: 0 1rem;
 }
     
 .hamburger{
-    display: initial;
+    display: none;
+}
 
+@media screen and (max-width: 1040px){
+    .hamburger{
+       display: initial;
+    }
 }
