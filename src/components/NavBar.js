@@ -19,6 +19,9 @@ function NavBar() {
     }, [])
 
 
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value)
+    }
 
     return (
       <Navbar bg="light" expand="lg" className={scrolled ? "scrolled": ""}>
