@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Proj from '../components/Proj'
 import PricingCard from '../components/PricingCard'
-import WorkCard from '../components/WorkCard'
+import Work from '../components/Work'
 
 
 const Project = () => {
@@ -11,7 +11,8 @@ const Project = () => {
     <div>
       <Navbar></Navbar>
       <Proj heading="PROJECTS." text='Some of my most recent works'></Proj>
-      <WorkCard></WorkCard>
+      {/* <WorkCard></WorkCard> */}
+      <Work></Work>
       <PricingCard></PricingCard>
       <Footer></Footer>
     </div>
