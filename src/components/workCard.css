@@ -46,3 +46,22 @@
     padding: 0.5rem 0;
 }
 
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 740px){
+    .pro-btns {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 2rem;
+    }
+
+    .pro-btns .btn {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5rem 1rem;
+    }
+}
+
