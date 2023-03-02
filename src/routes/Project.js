@@ -7,8 +7,8 @@ const Project = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Footer></Footer>
       <Proj></Proj>
+      <Footer></Footer>
     </div>
   )
 }

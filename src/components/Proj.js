@@ -11,7 +11,7 @@ const Proj = () => {
           This is Heading
         </h1>
         <p>
-          
+          This a text.
         </p>
       </div>
     </div>
