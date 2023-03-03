@@ -1,6 +1,6 @@
 import './Footer.css'
 import{FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
-
+import {NavLink} from 'react-router-dom'
 import React from 'react'
 
 const Footer = () => {
@@ -40,9 +40,9 @@ const Footer = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero consequuntur assumenda aliquam blanditiis ullam aut ipsa amet maxime obcaecati quasi nam, laudantium ipsum ad doloribus voluptate eum voluptatum esse enim.
             </p>
             <div className="social">
-                <FaGithub size={30} style={{color:'#fff', marginRight:'1rem'}}></FaGithub>
-                <FaLinkedin size={30} style={{color:'#fff', marginRight:'1rem'}}></FaLinkedin>
-                <FaTwitter size={30} style={{color:'#fff', marginRight:'1rem'}}></FaTwitter>
+                <NavLink to='https://github.com/Teuton-Roy'><FaGithub size={30} style={{color:'#fff', marginRight:'1rem'}}></FaGithub></NavLink>
+                <NavLink to='https://www.linkedin.com/in/teuton-roy-73031a21b/'><FaLinkedin size={30} style={{color:'#fff', marginRight:'1rem'}}></FaLinkedin></NavLink>
+                <NavLink to='https://twitter.com/'><FaTwitter size={30} style={{color:'#fff', marginRight:'1rem'}}></FaTwitter></NavLink>
             </div>
         </div>
       </div>
